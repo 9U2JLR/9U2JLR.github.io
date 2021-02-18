@@ -1,9 +1,50 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
-body{
+html, body, #homePageContainer {
+    min-height: 100%;
+    height: 100%;
+}
+
+body {
     font-family: Calibri, SansSerif, sans-serif;
     font-size: 14px;
+    background: #F5F5F5;
+}
+
+#homePageContainer {
+    background: #ED1265;
+    background-image: url("../img/border.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+header {
+    padding: 1.5em;
+}
+
+header #logo {
+    width: 15em;
+}
+
+header nav {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2.8em;
+}
+
+header nav ul {
+
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+footer {
+    background: #3C3C3C;
+    padding: 1.5em;
 }
