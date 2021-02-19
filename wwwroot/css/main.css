@@ -90,10 +90,23 @@ CONTAINERS
 }
 
 #featureImageContainer .featureColour h1 {
-    padding: 5rem;
+    padding: 3rem 5rem;
     font-size: 5rem;
     font-family: helsinkiregular;
     max-width: 40%;
+}
+
+#featureImageContainer .featureColour h2 {
+    padding: 0rem 5rem;
+    font-size: 2rem;
+    font-family: helsinkiregular;
+    max-width: 40%;
+}
+
+#featureImageContainer .featureColour h2 img {
+    width: 3rem;
+    vertical-align: top;
+    margin-top: -0.5rem;
 }
 
 #featureImageContainer .featureImage {
